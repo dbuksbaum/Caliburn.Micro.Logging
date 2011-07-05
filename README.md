@@ -1,5 +1,5 @@
-Caliburn.Micro.Autofac
+Caliburn.Micro.Logging
 ======================
                        
-Source code to the [Caliburn.Micro.log4net nuget package](http://nuget.org/List/Packages/Caliburn.Micro.log4net).
-See [blog post](http://buksbaum.us/2011/07/05/introducing-caliburn-micro-log4net/)
+Source code to the [Caliburn.Micro.Logging nuget package](http://nuget.org/List/Packages/Caliburn.Micro.Logging).
+See [blog post](http://buksbaum.us/2011/07/04/introducing-caliburn-micro-logging/)
