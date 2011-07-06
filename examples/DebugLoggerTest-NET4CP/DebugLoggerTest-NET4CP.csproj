@@ -62,6 +62,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="..\..\nuget\content\caliburn\micro\logging\DebugLogger.cs">
+      <Link>Caliburn\Micro\Logging\DebugLogger.cs</Link>
+    </Compile>
     <Compile Include="..\DebugLoggerTest-NET4\AppBootstrapper.cs">
       <Link>AppBootstrapper.cs</Link>
     </Compile>

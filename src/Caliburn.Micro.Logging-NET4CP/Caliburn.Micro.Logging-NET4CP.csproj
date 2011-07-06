@@ -27,7 +27,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -44,14 +44,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Caliburn.Micro.Logging-NET4\DebugLogger.cs">
-      <Link>DebugLogger.cs</Link>
-    </Compile>
     <Compile Include="..\Caliburn.Micro.Logging-NET4\ILogExtended.cs">
       <Link>ILogExtended.cs</Link>
     </Compile>
     <Compile Include="..\Caliburn.Micro.Logging-NET4\TraceLogger.cs">
       <Link>TraceLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\GlobalAssemblyInfo.cs">
+      <Link>Properties\GlobalAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\VersionAssemblyInfo.cs">
+      <Link>Properties\VersionAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
