@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		src\GlobalAssemblyInfo.cs = src\GlobalAssemblyInfo.cs
 		License.txt = License.txt
 		README.md = README.md
+		src\VersionAssemblyInfo-log4net.cs = src\VersionAssemblyInfo-log4net.cs
+		src\VersionAssemblyInfo-nlog.cs = src\VersionAssemblyInfo-nlog.cs
 		src\VersionAssemblyInfo.cs = src\VersionAssemblyInfo.cs
 	EndProjectSection
 EndProject
@@ -23,6 +25,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceLoggerTest-NET4", "examples\TraceLoggerTest-NET4\TraceLoggerTest-NET4.csproj", "{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceLoggerTest-NET4CP", "examples\TraceLoggerTest-NET4CP\TraceLoggerTest-NET4CP.csproj", "{ECA4CF56-3E84-4683-9F39-3D1C3389C957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Logging.log4net-NET4", "src\Caliburn.Micro.Logging.log4net-NET4\Caliburn.Micro.Logging.log4net-NET4.csproj", "{4A943178-6142-4119-8EED-6F4021FEBC77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Logging.NLog-NET4", "src\Caliburn.Micro.Logging.NLog-NET4\Caliburn.Micro.Logging.NLog-NET4.csproj", "{29DB895A-0D08-4327-8A42-2894B3A39A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Logging.NLog-NET4CP", "src\Caliburn.Micro.Logging.NLog-NET4CP\Caliburn.Micro.Logging.NLog-NET4CP.csproj", "{75479FAE-1B95-4CD9-96A5-7934CBB92432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +102,36 @@ Global
 		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|Mixed Platforms.Build.0 = Release|x86
 		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|x86.ActiveCfg = Release|x86
 		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|x86.Build.0 = Release|x86
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4A943178-6142-4119-8EED-6F4021FEBC77}.Release|x86.ActiveCfg = Release|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{29DB895A-0D08-4327-8A42-2894B3A39A59}.Release|x86.ActiveCfg = Release|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{75479FAE-1B95-4CD9-96A5-7934CBB92432}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
