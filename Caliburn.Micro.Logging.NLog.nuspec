@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Caliburn.Micro.Logging.NLog</id>
+    <version>1.0</version>
+    <title>Caliburn.Micro.Logging.NLog</title>
+    <authors>David Buksbaum</authors>
+    <owners />
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://buksbaum.us/2011/07/06/introducing-caliburn-micro-logging-nlog/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Caliburn.Micro integration with nlog</description>
+    <summary>Caliburn.Micro integration with nlog</summary>
+    <tags>Caliburn.Micro Logging NLog</tags>
+    <dependencies>
+      <dependency id="Caliburn.Micro.Logging" version="1.2" />
+      <dependency id="NLog" version="2.0.0.1904" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\net40\Caliburn.Micro.Logging.NLog.dll" target="lib\net40\Caliburn.Micro.Logging.NLog.dll" />
+    <file src="lib\net40-client\Caliburn.Micro.Logging.NLog.dll" target="lib\net40-client\Caliburn.Micro.Logging.NLog.dll" />
+  </files>
+</package>

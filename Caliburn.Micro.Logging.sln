@@ -3,28 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EBCC0F1-05AC-4094-9108-B2C06F671CDA}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-		src\GlobalAssemblyInfo.cs = src\GlobalAssemblyInfo.cs
 		License.txt = License.txt
 		README.md = README.md
-		src\VersionAssemblyInfo-log4net.cs = src\VersionAssemblyInfo-log4net.cs
-		src\VersionAssemblyInfo-nlog.cs = src\VersionAssemblyInfo-nlog.cs
-		src\VersionAssemblyInfo.cs = src\VersionAssemblyInfo.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Logging-NET4", "src\Caliburn.Micro.Logging-NET4\Caliburn.Micro.Logging-NET4.csproj", "{7C1EBC84-2DC9-4EAF-9CF0-78909BE5274E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Logging-NET4CP", "src\Caliburn.Micro.Logging-NET4CP\Caliburn.Micro.Logging-NET4CP.csproj", "{B0D7C749-2BBC-42AB-879C-4869670F5149}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{799EB6C4-F4D5-44ED-B9BD-27E22E1BE0E1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugLoggerTest-NET4", "examples\DebugLoggerTest-NET4\DebugLoggerTest-NET4.csproj", "{75C6C221-F012-49AB-9798-8EF889081873}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugLoggerTest-NET4CP", "examples\DebugLoggerTest-NET4CP\DebugLoggerTest-NET4CP.csproj", "{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceLoggerTest-NET4", "examples\TraceLoggerTest-NET4\TraceLoggerTest-NET4.csproj", "{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceLoggerTest-NET4CP", "examples\TraceLoggerTest-NET4CP\TraceLoggerTest-NET4CP.csproj", "{ECA4CF56-3E84-4683-9F39-3D1C3389C957}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Logging.log4net-NET4", "src\Caliburn.Micro.Logging.log4net-NET4\Caliburn.Micro.Logging.log4net-NET4.csproj", "{4A943178-6142-4119-8EED-6F4021FEBC77}"
 EndProject
@@ -62,46 +47,6 @@ Global
 		{B0D7C749-2BBC-42AB-879C-4869670F5149}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B0D7C749-2BBC-42AB-879C-4869670F5149}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B0D7C749-2BBC-42AB-879C-4869670F5149}.Release|x86.ActiveCfg = Release|Any CPU
-		{75C6C221-F012-49AB-9798-8EF889081873}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Debug|x86.ActiveCfg = Debug|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Debug|x86.Build.0 = Debug|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Release|Any CPU.ActiveCfg = Release|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Release|Mixed Platforms.Build.0 = Release|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Release|x86.ActiveCfg = Release|x86
-		{75C6C221-F012-49AB-9798-8EF889081873}.Release|x86.Build.0 = Release|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Debug|x86.ActiveCfg = Debug|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Debug|x86.Build.0 = Debug|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Release|Any CPU.ActiveCfg = Release|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Release|Mixed Platforms.Build.0 = Release|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Release|x86.ActiveCfg = Release|x86
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC}.Release|x86.Build.0 = Release|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Debug|x86.ActiveCfg = Debug|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Debug|x86.Build.0 = Debug|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Release|Any CPU.ActiveCfg = Release|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Release|Mixed Platforms.Build.0 = Release|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Release|x86.ActiveCfg = Release|x86
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9}.Release|x86.Build.0 = Release|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Debug|x86.ActiveCfg = Debug|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Debug|x86.Build.0 = Debug|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|Any CPU.ActiveCfg = Release|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|Mixed Platforms.Build.0 = Release|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|x86.ActiveCfg = Release|x86
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957}.Release|x86.Build.0 = Release|x86
 		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A943178-6142-4119-8EED-6F4021FEBC77}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -135,11 +80,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{75C6C221-F012-49AB-9798-8EF889081873} = {799EB6C4-F4D5-44ED-B9BD-27E22E1BE0E1}
-		{4D623B0A-CC5B-46D3-85F5-7F3B1F635BFC} = {799EB6C4-F4D5-44ED-B9BD-27E22E1BE0E1}
-		{8C6D1D9C-6801-454D-A1FF-B2C7F02488E9} = {799EB6C4-F4D5-44ED-B9BD-27E22E1BE0E1}
-		{ECA4CF56-3E84-4683-9F39-3D1C3389C957} = {799EB6C4-F4D5-44ED-B9BD-27E22E1BE0E1}
 	EndGlobalSection
 EndGlobal
