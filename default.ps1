@@ -2,10 +2,10 @@ properties {
   $base_dir  = resolve-path .
   $build_dir = "$base_dir\build"
   $buildartifacts_dir = "$build_dir"
- 	$config = "Debug"
+  $config = "Debug"
 #	$lib_dir = "$base_dir\SharedLibs"
-	$nuget_packages_dir = "$base_dir\packages"
-	$sln_base = "Caliburn.Micro.Logging"
+  $nuget_packages_dir = "$base_dir\packages"
+  $sln_base = "Caliburn.Micro.Logging"
   $sln_file = "$base_dir\$sln_base.sln"
   $target = "Rebuild"
   $verbosity = "m"
@@ -17,17 +17,17 @@ properties {
   $release_dir = "$base_dir\release"
 #  $uploader = "..\Uploader\S3Uploader.exe"
   $upload_category = "Caliburn.Micro.Logging"
-	$v4_net_version = (ls "$env:windir\Microsoft.NET\Framework\v4.0*").Name
-	$project_base = "$src_dir\$sln_base"
+  $v4_net_version = (ls "$env:windir\Microsoft.NET\Framework\v4.0*").Name
+  $project_base = "$src_dir\$sln_base"
 
-	$project_dlls = @( "Caliburn.Micro.Logging.dll" );
-	$project_nlog_dlls = @( "Caliburn.Micro.Logging.NLog.dll" );
-	$project_log4net_dlls = @( "Caliburn.Micro.Logging.log4net.dll" );
+  $project_dlls = @( "Caliburn.Micro.Logging.dll" );
+  $project_nlog_dlls = @( "Caliburn.Micro.Logging.NLog.dll" );
+  $project_log4net_dlls = @( "Caliburn.Micro.Logging.log4net.dll" );
 
-	$platforms = @( "NET4", "NET4CP" );
-	$build_dirs = @( $release_dir, $build_dir, "$build_dir\content", "$build_dir\content\Caliburn", `
+  $platforms = @( "NET4", "NET4CP" );
+  $build_dirs = @( $release_dir, $build_dir, "$build_dir\content", "$build_dir\content\Caliburn", `
 		"$build_dir\content\Caliburn\Micro", "$build_dir\content\Caliburn\Micro\Logging" );
-	$nupack_dirs = @(	"NuPack", "NuPack\content", "NuPack\content\Caliburn", "NuPack\content\Caliburn\Micro", `
+  $nupack_dirs = @(	"NuPack", "NuPack\content", "NuPack\content\Caliburn", "NuPack\content\Caliburn\Micro", `
 		"NuPack\content\Caliburn\Micro\Logging", "NuPack\lib", "NuPack\lib\net40", "NuPack\lib\net40-client" );
 }
 
@@ -163,7 +163,7 @@ task Release -depends CopyBuildFiles {
 }
 
 task Samples -depends CopyBuildFiles {
-	exec { &"c:\Windows\Microsoft.NET\Framework\$v4_net_version\MSBuild.exe" ""$samples_sln_file"" /v:$verbosity /t:$target /p:Configuration=$config }
+	exec { &"c:\Windows\Microsoft.NET\Framework\$v4_net_version\MSBuild.exe" "`"$samples_sln_file`" /v:$verbosity /t:$target /p:Configuration=$config" }
 }
 
 task Test -depends CopyBuildFiles {
@@ -205,7 +205,7 @@ task CopyBuildFiles -depends Compile {
 
 #-PreAction {"*** Pre-Test ***"} -PostAction {"*** Post-Test ***"}
 task Compile -depends Init -Action { 
-	exec { &"c:\Windows\Microsoft.NET\Framework\$v4_net_version\MSBuild.exe" ""$slnFile"" /v:$verbosity /t:$target /p:Configuration=$config }
+	exec { &"c:\Windows\Microsoft.NET\Framework\$v4_net_version\MSBuild.exe" "`"$slnFile`" /v:$verbosity /t:$target /p:Configuration=$config" }
 } 
 
 task Init -depends SetVsPaths, Verify40, Clean, DisplayConfig {
@@ -278,6 +278,7 @@ task Clean {
 }
 
 task DisplayConfig {
+	Write-Host "Jenkins Build Number = $env:BUILD_NUMBER"
 	Write-Host "base_dir = $base_dir"
   Write-Host "target = $target"
 	Write-Host "config = $config"
