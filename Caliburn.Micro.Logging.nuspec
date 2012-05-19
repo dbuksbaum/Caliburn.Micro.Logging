@@ -17,7 +17,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="content\Caliburn\Micro\Logging\DebugLogger.cs" target="content\Caliburn\Micro\Logging\DebugLogger.cs" />
+    <file src="lib\content\Caliburn\Micro\Logging\DebugLogger.cs" target="content\Caliburn\Micro\Logging\DebugLogger.cs" />
     <file src="lib\net40\Caliburn.Micro.Logging.dll" target="lib\net40\Caliburn.Micro.Logging.dll" />
     <file src="lib\net40-client\Caliburn.Micro.Logging.dll" target="lib\net40-client\Caliburn.Micro.Logging.dll" />
     <file src="lib\sl4\Caliburn.Micro.Logging.dll" target="lib\sl4\Caliburn.Micro.Logging.dll" />
