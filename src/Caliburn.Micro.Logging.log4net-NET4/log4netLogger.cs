@@ -7,7 +7,7 @@ using Log4Net=log4net;
 namespace Caliburn.Micro.Logging.log4net
 {
 // ReSharper disable InconsistentNaming
-  public class log4netLogger : ILog, ILogExtended
+  public class log4netLogger : ILogExtended
 // ReSharper restore InconsistentNaming
   {
     #region Fields
