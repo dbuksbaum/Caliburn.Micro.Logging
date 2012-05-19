@@ -7,7 +7,7 @@
     <authors>David Buksbaum</authors>
     <owners />
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-    <projectUrl>http://buksbaum.us/2011/07/04/introducing-caliburn-micro-logging/</projectUrl>
+    <projectUrl>http://buksbaum.us/things-i-did/caliburn-micro-logging/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides core logging functionality for Caliburn.Micro</description>
     <summary>Core logging implementation for Caliburn.Micro, along with a derived extension to the ILog interface to support richer Error messages</summary>

@@ -2,12 +2,13 @@ Caliburn.Micro.Logging
 ======================
                        
 Source code to the [Caliburn.Micro.Logging nuget package](http://nuget.org/List/Packages/Caliburn.Micro.Logging).
-See [blog post](http://buksbaum.us/2011/07/04/introducing-caliburn-micro-logging/)
-See [blog post](http://buksbaum.us/2011/07/06/introducing-caliburn-micro-logging-log4net/)
-See [blog post](http://buksbaum.us/2011/07/06/introducing-caliburn-micro-logging-nlog/)
+- [Caliburn.Micro.Logging](http://buksbaum.us/things-i-did/caliburn-micro-logging/)
 
 The Logging library is compiled with DEBUG attribute set, so ALL message sent to the Debug logger will be logged.
 
+__Version X.Y.Z. - yyyy/mm/dd__
+	* Updated readme and nuspec to point to new project page URL
+	
 __Version 1.3.0 - 2012/05/19__
 	* Minor project file updates to support TeamCity CI
 	* Cleaned up AssemblyInfo
