@@ -9,28 +9,28 @@ See [blog post](http://buksbaum.us/2011/07/06/introducing-caliburn-micro-logging
 The Logging library is compiled with DEBUG attribute set, so ALL message sent to the Debug logger will be logged.
 
 __Version 1.5.0 - 2012/12/15__
-  	* Upgraded solution / project files to VS2012
-  	* Upgraded Caliburn.Micro to 1.4
-  	* Added support for Windows Phone 8
-  	* Split Caliburn.Micro.Logging, Caliburn.Micro.Logging.NLog, & Caliburn.Micro.Logging.log4net into their own solutions
-  	* Changed NuGet packaging to be a project in the solutions
-  	* Minor changes to the physical directory structure
-
+   	* Upgraded solution / project files to VS2012
+   	* Upgraded Caliburn.Micro to 1.4
+   	* Added support for Windows Phone 8
+   	* Split Caliburn.Micro.Logging, Caliburn.Micro.Logging.NLog, & Caliburn.Micro.Logging.log4net into their own solutions
+   	* Changed NuGet packaging to be a project in the solutions
+   	* Minor changes to the physical directory structure
+  
 __Version 1.3.0 - 2012/05/19__
 	* Minor project file updates to support TeamCity CI
-	* Cleaned up AssemblyInfo
-	* Modified .gitignore to support NuGet PackageRestore
-	* Deprecated psake build scripts. These will be removed in the next release.
-	* Updated Caliburn.Micro to 1.3.1
-	* Added support for SilverLight 4
-	* Added support for SilverLight 5
-	* Added support for Windows Phone 7.1
-
+  	* Cleaned up AssemblyInfo
+  	* Modified .gitignore to support NuGet PackageRestore
+  	* Deprecated psake build scripts. These will be removed in the next release.
+  	* Updated Caliburn.Micro to 1.3.1
+  	* Added support for SilverLight 4
+  	* Added support for SilverLight 5
+  	* Added support for Windows Phone 7.1
+  
 __Version 1.2.1 - 2011/08/12__
 	* Upgraded .NET 4 and Silverlight 4 versions to Caliburn.Micro 1.2.0
-	* Created a psake build script to be used in Continious Integration
-	* Moved samples into their own solution
-
+  	* Created a psake build script to be used in Continious Integration
+  	* Moved samples into their own solution
+  
 __Version 1.2 - 2011/07/05__
   * Added GlobalAssemblyInfo.cs and VersionAssemblyInfo.cs to contain common AssemblyInfo attributes
   * Removed DebugLogger.cs from the Caliburn.Micro.Logging assembly
@@ -40,13 +40,13 @@ __Version 1.2 - 2011/07/05__
 Caliburn.Micro.Logging.log4net
 ==============================
 __Version 1.5.0 - 2012/12/15__
-  	* Upgraded solution / project files to VS2012
-  	* Upgraded Caliburn.Micro to 1.4
-  	* Added support for Windows Phone 8
-  	* Split Caliburn.Micro.Logging, Caliburn.Micro.Logging.NLog, & Caliburn.Micro.Logging.log4net into their own solutions
-  	* Changed NuGet packaging to be a project in the solutions
-  	* Minor changes to the physical directory structure
-
+   	* Upgraded solution / project files to VS2012
+   	* Upgraded Caliburn.Micro to 1.4
+   	* Added support for Windows Phone 8
+   	* Split Caliburn.Micro.Logging, Caliburn.Micro.Logging.NLog, & Caliburn.Micro.Logging.log4net into their own solutions
+   	* Changed NuGet packaging to be a project in the solutions
+   	* Minor changes to the physical directory structure
+  
 __Version 1.3.0 - 2012/05/19__
 	* Minor project file updates to support TeamCity CI
 	* Cleaned up AssemblyInfo
@@ -65,13 +65,13 @@ __Version 1.0 - 2011/07/06__
 Caliburn.Micro.Logging.NLog
 ===========================
 __Version 1.5.0 - 2012/12/15__
-  	* Upgraded solution / project files to VS2012
-  	* Upgraded Caliburn.Micro to 1.4
-  	* Added support for Windows Phone 8
-  	* Split Caliburn.Micro.Logging, Caliburn.Micro.Logging.NLog, & Caliburn.Micro.Logging.log4net into their own solutions
-  	* Changed NuGet packaging to be a project in the solutions
-  	* Minor changes to the physical directory structure
-
+   	* Upgraded solution / project files to VS2012
+   	* Upgraded Caliburn.Micro to 1.4
+   	* Added support for Windows Phone 8
+   	* Split Caliburn.Micro.Logging, Caliburn.Micro.Logging.NLog, & Caliburn.Micro.Logging.log4net into their own solutions
+   	* Changed NuGet packaging to be a project in the solutions
+   	* Minor changes to the physical directory structure
+  
 __Version 1.3.0 - 2012/05/19__
 	* Minor project file updates to support TeamCity CI
 	* Cleaned up AssemblyInfo
