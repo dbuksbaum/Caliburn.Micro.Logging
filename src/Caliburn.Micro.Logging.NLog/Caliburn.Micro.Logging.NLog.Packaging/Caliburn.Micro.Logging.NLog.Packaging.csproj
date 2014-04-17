@@ -8,8 +8,8 @@
     <ProjectGuid>{0451BAEF-DF2E-4B98-8644-94EE9415E389}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Caliburn.Micro.Logging.Packaging</RootNamespace>
-    <AssemblyName>Caliburn.Micro.Logging.Packaging</AssemblyName>
+    <RootNamespace>Caliburn.Micro.Logging.NLog.Packaging</RootNamespace>
+    <AssemblyName>Caliburn.Micro.Logging.NLog.Packaging</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>

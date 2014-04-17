@@ -8,6 +8,14 @@ See [blog post](http://buksbaum.us/2011/07/06/introducing-caliburn-micro-logging
 
 The Logging library is compiled with DEBUG attribute set, so ALL message sent to the Debug logger will be logged.
 
+__Version 2.0.1-beta2 - 2014/04/17__
+    * Upgraded solution / project files to Visual Studio 2013
+    * Upgraded Caliburn.Micro 1.4 to Caliburn.Micro.Core 2.0.0-beta2
+    * Converted Caliburn.Micro.Logging to a portable class library
+    * Dropped support for TraceLogger since it is not support in a PCL
+    * Dropped SilverLight 4/5 and Windows Phone 7.1 support
+    * Added a key for strong name support for all assemblies
+
 __Version 1.5.0 - 2012/12/15__
    	* Upgraded solution / project files to VS2012
    	* Upgraded Caliburn.Micro to 1.4

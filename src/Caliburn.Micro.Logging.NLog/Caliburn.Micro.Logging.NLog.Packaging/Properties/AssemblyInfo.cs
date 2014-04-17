@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Caliburn.Micro.Logging.Packaging")]
+[assembly: AssemblyTitle("Caliburn.Micro.Logging.NLog.Packaging")]
 [assembly: AssemblyDescription("Project template made by EyeCatch (http://www.eyecatch.no/)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Caliburn.Micro.Logging.Packaging")]
+[assembly: AssemblyProduct("Caliburn.Micro.Logging.NLog.Packaging")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
