@@ -1,0 +1,1 @@
+..\..\Tools\NuGet.exe pack -symbols -noninteractive -verbosity normal -Prop Configuration=Release

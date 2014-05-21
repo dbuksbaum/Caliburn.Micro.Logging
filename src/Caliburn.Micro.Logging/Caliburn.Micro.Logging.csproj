@@ -31,7 +31,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -47,7 +47,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Caliburn.Micro.Logging.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="caliburn.micro.logging.pfx" />
+    <None Include="MyGet.cmd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
