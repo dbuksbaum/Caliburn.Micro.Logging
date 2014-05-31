@@ -4,6 +4,11 @@ Caliburn.Micro.Logging
 Source code to the [Caliburn.Micro.Logging nuget package](http://nuget.org/List/Packages/Caliburn.Micro.Logging).
 See [Re-Introducing Caliburn.Micro.Logging blog post](http://buksbaum.us/2014/05/21/re-introducing-caliburn-micro-logging/)
 
+__Version 2.0.3 - 2014/05/31__
+
+  * Upgraded Caliburn.Micro 2.0.0-beta2 to Caliburn.Micro.Core 2.0.0
+
+
 __Version 2.0.2-beta2 - 2014/05/21__
 
   * Upgraded solution / project files to Visual Studio 2013 Update 2

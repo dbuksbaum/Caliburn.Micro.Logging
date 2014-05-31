@@ -2,8 +2,7 @@
 <package >
   <metadata>
     <id>$id$</id>
-<!--    <version>$version$</version>-->
-    <version>2.0.2-beta2</version>
+    <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
@@ -14,7 +13,7 @@
     <description>$description$</description>
     <releaseNotes>
       Upgraded solution / project files to Visual Studio 2013 Update 2
-      Upgraded Caliburn.Micro 1.4 to Caliburn.Micro.Core 2.0.0-beta2
+      Upgraded Caliburn.Micro 1.4 to Caliburn.Micro.Core 2.0.0
       Converted Caliburn.Micro.Logging to a portable class library (.NET4.5, Win8, WPA8.1 WPSL8)
       Dropped support for TraceLogger since it is not supported in a PCL
       Dropped SilverLight 4/5 and Windows Phone 7.1 support
