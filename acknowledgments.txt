@@ -1,5 +1,0 @@
-The Caliburn.Micro.Logging project is making use of the following OSS projects:
-
-* Caliburn.Micro (http://caliburnmicro.codeplex.com/) - under the MIT license: http://caliburnmicro.codeplex.com/license
-* log4net (http://projects.apache.org/projects/log4net.html/) - under the Apache License 2.0: http://www.apache.org/licenses/LICENSE-2.0
-* NLog (http://nlog-project.org/) - under the BSD license: https://raw.github.com/jkowalski/NLog/master/LICENSE.txt
